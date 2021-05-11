@@ -8,11 +8,11 @@
 // import type { Word, Byte } from '../types/common';
 
 export default class CpuBus {
-  constructor(ram, programROM, ppu, /*keypad,*/ dma/*, apu*/) {
+  constructor(ram, programROM, ppu, /*keypad,*/ dma, apu) {
     this.ram = ram;
     this.programROM = programROM;
     this.ppu = ppu;
-    // this.apu = apu;
+    this.apu = apu;
     // this.keypad = keypad;
     this.dma = dma;
   }
@@ -68,7 +68,7 @@ export default class CpuBus {
       } else {
         // APU
         //console.log('fixme: APU');
-        // this.apu.write(addr - 0x4000, data);
+        this.apu.write(addr - 0x4000, data);
       }
     }
   }
