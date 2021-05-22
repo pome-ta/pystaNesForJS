@@ -1,0 +1,3 @@
+[submodule "pythonista-webview"]
+	path = pythonista-webview
+	url = git@github.com:pome-ta/pythonista-webview.git
