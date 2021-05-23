@@ -5,7 +5,7 @@ import ui
 sys.path.append(str(pathlib.Path.cwd()) + '/pythonista-webview')
 import wkwebview
 
-uri = pathlib.Path('./index.html')
+uri = pathlib.Path('./nesJSemu/public/index.html')
 
 class View(ui.View):
   def __init__(self, *args, **kwargs):
