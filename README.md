@@ -7,6 +7,7 @@
 - ボタン操作の実装
     - styleを綺麗にする
 - 音の実装
+  - audio api...
 
 
 ## reference
