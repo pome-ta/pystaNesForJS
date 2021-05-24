@@ -1,2 +1,6 @@
 [submodule "pythonista-webview"]
+	path = pythonista-webview
+	url = https://pome-ta@github.com/pome-ta/pythonista-webview
 [submodule "nesJSemu"]
+	path = nesJSemu
+	url = git@github.com:pome-ta/nesJSemu.git
